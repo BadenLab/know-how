@@ -6,4 +6,4 @@ Both setups share an XXXX laser that is able to output XXX to XXX wavelengths.
 
 Setup1 has a through-the-objective full field stimulator, as well as an fish cinema.
 
-![Dichroic_Filter](media/setup1_filters_n_dichroics/Dichroic_Filter.png)
+![Dichroic_Filter](media/setup1_filters_n_dichroics/Dichroic_Filter.png?raw=true)
