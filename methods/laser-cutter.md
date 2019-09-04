@@ -56,10 +56,38 @@ For login and password info, contact Tom or Andre.
 
   - when you select "print" the system is going to take a picture of what is inside the cutter.
    - place your design on the appropriate place on top of your material image.
-   - make sure the system is focused (there is an autofocus button on the webapp)/
+   - make sure the system is focused (there is an autofocus button on the webapp)
    - wait for magic to happen
 
+## a pipeline with openscad:  
 
+
+[OpenScad](openscad.org) is normally used to design and export 3D designs, we normally use it for creating parts for [3Dprinting](./laser-cutter.md). As mentioned before, the laser cutter takes files in formats that are describing 2D shapes (eg PDF, JPG, etc).
+To circumvent this we are leveraging libraries that other people wrote.
+
+This pipeline works with https://github.com/bmsleight/lasercut library:
+
+ - Create the box in the dimensions you want using one of the many possible functions. below is a code example from the library's github (holes and other specific things come later):
+
+ ```
+ include <lasercut.scad>;
+
+ thickness = 3.1;
+ x = 50;
+ y = 50;
+ z = 75;
+
+ for (sides =[4:6])
+ {
+    color("Gold",0.75) translate([100*(sides-4),0,0])
+        lasercutoutBox(thickness = thickness, x=x, y=y, z=z,
+        sides=sides, num_fingers=4);
+}
+```
+
+ - then export this using the libraries ```./convert-2d.sh``` function.
+
+ - you can either export the newly generated file to SVG and finish working on your preferred 2D suit, or work on the newly generated file in OpenScad and then export it to SVG.
 
 ## other notes:
 - In case the cutter needs to be reset, turn the machine one, and press the big button for 30 sec.
