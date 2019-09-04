@@ -49,7 +49,10 @@ For login and password info, contact Tom or Andre.
 
 - steps for actually cutting things:
   - Make a design in a software that can export in one of the following formats: JPG, PNG, SVG, PDF
-  - upload it using the webapp interface. ![](../media/lasercutter/initial_page_glowforge.png)
+  - upload it using the webapp interface.
+
+   ![](../media/lasercutter/initial_page_glowforge.png)
+
 
   - when you select "print" the system is going to take a picture of what is inside the cutter.
    - place your design on the appropriate place on top of your material image.
