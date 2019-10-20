@@ -1,10 +1,3 @@
----
-description: >-
-  These notes are to document information that go across generations of
-  students/projects, so that it is nor lost and/or wrongly changed over time via
-  "telephone" distribution
----
-
 # Baden Lab knowledge book
 
 ## In this book you can find:

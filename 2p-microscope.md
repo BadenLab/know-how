@@ -1,3 +1,9 @@
+---
+layout: page
+title: 2 Photon microscope
+permalink: /2p-microscope/
+---
+
 # 2P microscope
 
 The lab currently has 2 two photon microscope:

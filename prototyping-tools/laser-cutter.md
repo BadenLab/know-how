@@ -1,3 +1,9 @@
+---
+layout: page
+title: Laser cutter
+permalink: /prototyping-tools/laser-cutter/
+---
+
 # Laser Cutter
 
 ### Summary
