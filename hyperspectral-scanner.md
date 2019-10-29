@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hyperspectral Scanner
-permalink: /basic-readings/
+permalink: /hyperspectral-scanner/
 ---
 
 ## Natural imaging with hyperspectral scanners
