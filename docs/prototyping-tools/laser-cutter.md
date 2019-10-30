@@ -18,7 +18,7 @@ The lab's laser cutter is a [glowforge](https://glowforge.com/). The basic model
  - Material max dimensions: 45.7 X 51.8 cm (18 x 20.4 inches)
  - file formats JPG, PNG, SVG, PDF
  - 40W laser
- - can cut:
+
 
 
  |Cut||||
@@ -55,7 +55,7 @@ For login and password info, contact Tom or Andre.
   - Make a design in a software that can export in one of the following formats: JPG, PNG, SVG, PDF
   - upload it using the webapp interface.
 
-   ![](../media/lasercutter/initial_page_glowforge.png)
+   ![](../../media/lasercutter/initial_page_glowforge.png)
 
 
   - when you select "print" the system is going to take a picture of what is inside the cutter.
