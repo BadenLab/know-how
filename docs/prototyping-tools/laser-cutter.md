@@ -9,7 +9,7 @@ permalink: /prototyping-tools/laser-cutter/
 ### Summary
 
 
-![glowforge](../media/lasercutter/glowforge.jpeg)
+![glowforge](../../media/lasercutter/glowforge.jpeg)
 
 
 The lab's laser cutter is a [glowforge](https://glowforge.com/). The basic model without the built in filter.
@@ -19,22 +19,20 @@ The lab's laser cutter is a [glowforge](https://glowforge.com/). The basic model
  - file formats JPG, PNG, SVG, PDF
  - 40W laser
  - can cut:
-   - Leather
-   - Wood
-   - Fabric
-   - Paper
-   - Plexiglas (acrylic)
-   - Delrin (acetal)
-   - Mylar
-   - Rubber
-   - Corian
-   - Foods
-  - Can engrave same as cut plus:
-   - Glass
-   - Coated metal
-   - Marble
-   - Anodized aluminum
-   - Titanium
+
+
+ |Cut||||
+ |--|--|--|--|
+ |Leather|Wood|Paper|Fabric|
+ |Plexiglas (acrylic)|Delrin (acetal)|Mylar|Rubber|
+ |Corian|Foods|||
+
+ |Can engrave same as cut plus:||||
+ |--|--|--|--|
+ |Glass|coated metal|marble||
+ |titanium|anodized aluminum|||
+
+
 
 - Good for:
  - prototyping of large pieces
