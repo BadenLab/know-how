@@ -8,9 +8,7 @@ permalink: /docs/backup_systems/nas
 
 # Baden Lab backup / file storage backup_system
 
-## NOTE: Other than this automated storage system, all lab members are responsible
-## for keeping backups of their own data! Preference is given for a complete copy
-## in an external drive (extra points if this is kept outside the lab!)
+## NOTE: Other than this automated storage system, all lab members are responsible for keeping backups of their own data! Preference is given for a complete copy in an external drive (extra points if this is kept outside the lab!)
 
 ### Currently (20191126) the lab uses a NAS system from Synology.
 
