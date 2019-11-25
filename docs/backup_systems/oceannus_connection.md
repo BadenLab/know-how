@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NAS Ocennus connection
+title: Oceannus connection
 #parent: prototyping-tools
 permalink: /docs/backup_systems/oceannus_connection
 ---
