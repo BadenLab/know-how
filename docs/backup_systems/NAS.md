@@ -27,3 +27,27 @@ in the file tree.
 - accessing the NAS from the office should be done connecting to badenstation.biochem.susx.ac.uk/root
   - this can be done by typing the above address on your web browser
   - or more conveniently by mapping a network drive, if you are using a Windows computer.
+
+  ---
+
+###  More detailed info about NAS installation:
+
+Following IT instructions the system has to be setup as DHCP.
+
+In case a new systems needs to be installed (a complete new NAS and not just HD updates), here are the necessary steps to get it up and running:
+
+- Find out the MAC address of the ethernet port on the NAS you will use to connect it to the network (the NAS has more then one ethernet port, and each has a different MAC address, so make sure you always connect the selected port).
+
+- contact IT and tell them the device has been changed, sending them the MAC address. This will allow them to set a fixed IP to the NAS and all users will be able to connect to it:
+
+ 1 –(IT’s PREFERRED METHOD – stable even if NAS IP changes) using the name registered on the network (DNS name) badenstation.biochem.susx.ac.uk
+
+or
+
+ 2 – using FTP protocol and setting the IP address given by IT
+
+Windows users:
+open windows explorer → my computer → connect to a network location.
+Then type on the location address: ftp://USERNAME@IPADDRESS/Root (considering Root is the base folder setup on NAS).
+
+Check “connect at log in” and “use different credentials”. Type your NAS password (not necessarily the same as sussex pasword).
