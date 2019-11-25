@@ -6,6 +6,8 @@ permalink: /docs/backup_systems/oceannus_connection
 ---
 
 
+## Lab members should not need to follow the steps below, as all their data backup is done automatically once they place their files on NAS.
+
 DANIO (also known (erroneously) as Oceannus (Oceannus is the computing cluster. Danio is the data server)).
 
 To connect to it using windows:
